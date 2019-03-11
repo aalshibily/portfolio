@@ -1,0 +1,40 @@
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  @include easeOut;
+
+  .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: white;
+    @include easeOut;
+  }
+
+  //change hamburger icon
+  &.close {
+    transform: rotate(180deg);
+
+    .btn-line {
+      //Handle each line
+      //Line 1 rotate
+      &:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+      //line 2 hide
+      &:nth-child(2) {
+        display: none;
+        //hiding display didn't work. Made things offset weirdly
+        //opacity: 0;
+        //actually after fiddling some more I was able to get it right. Now I only need to translate first child!
+      }
+      //line 3 rotate
+      &:nth-child(3) {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
