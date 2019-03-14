@@ -4,7 +4,7 @@
   "description": "My Portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ -rw"
   },
   "keywords": [
     "Portfolio",
@@ -14,7 +14,7 @@
   "author": "Abdullah Alshibily",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "4.9.2"
+    "node-sass": "^4.11.0"
   },
   "devDependencies": {}
 }
