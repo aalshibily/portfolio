@@ -44,7 +44,10 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: black;
+      background: $port-pic;
+      background-size: 150%;
+      background-repeat: no-repeat;
+      background-position: center;
       width: 150px;
       height: 150px;
     }
@@ -54,6 +57,7 @@
     grid-template-areas:
       "bioimage"
       "bio"
+      "jobhead"
       "job1"
       "job2"
       "job3";
@@ -64,6 +68,10 @@
     }
     .bio {
       grid-area: bio;
+    }
+
+    .job-head {
+      grid-area: jobhead;
     }
 
     .job-1 {
@@ -86,8 +94,55 @@
 @include mediaSm {
   main#home h1 {
     margin-top: 10vh;
+    font-size: 4rem;
+  }
+
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "jobhead"
+      "job1"
+      "job2"
+      "job3";
+    grid-template-columns: 1fr;
+
+    .bio-image {
+      grid-area: bioimage;
+    }
+    .bio {
+      grid-area: bio;
+    }
+
+    .job-head {
+      grid-area: jobhead;
+    }
+
+    .job-1 {
+      grid-area: job1;
+    }
+
+    .job-2 {
+      grid-area: job2;
+    }
+
+    .job-3 {
+      grid-area: job3;
+    }
   }
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  #contact {
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    div {
+      font-size: 1.5rem;
+    }
   }
 }

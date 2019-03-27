@@ -53,29 +53,44 @@
     <main id="contact">
       <h1 class="lg-heading">Contact <span class="text-secondary">Me</span></h1>
       <h2 class="sm-heading">
-        You can reach me by one of the following...
+        You can reach me using one of the following...
       </h2>
 
       <div class="boxes">
         <div>
-          <span class="text-secondary">Email: </span>
-          test@test.com
+            <a href="mailto:aalshibily.dev@gmail.com">
+                <span class="text-secondary">Email: </span>
+                aalshibily.dev@gmail.com
+            </a>
         </div>
         <div>
           <span class="text-secondary">Phone: </span>
-          phone number
+          <span id="phonenum">First verify that you are human</span>
+          <div class="capt" id="capt">
+            <h2 type="text" id="mainCaptcha"></h2>
+            <p><input type="button" id="refresh" value="Generate Challenge" onclick="Captcha();" /></p>
+            <input type="text" id="txtInput" />
+            <input
+              id="Button1"
+              type="button"
+              value="Check"
+              onclick="(console.log(ValidCaptcha()));"
+            ></input>
+          </div>
         </div>
+        <h2>Can't really reach me here, but it's where I currently live.</h2>
         <div>
           <span class="text-secondary">Address: </span>
-          random address
+          Omaha, NE
         </div>
       </div>
-    </main>
+    </main> 
 
     <footer id="main-footer">
       Copyright &copy; 2019
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="js/cap.js"></script>
   </body>
 </html>
