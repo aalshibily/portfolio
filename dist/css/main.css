@@ -76,7 +76,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #373737;
+  background: #0b063b;
   list-style: none;
   -webkit-transform: translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0);
@@ -85,7 +85,7 @@
 }
 
 .menu-branding {
-  background: #444;
+  background: #100852;
   -webkit-transform: translate3d(0, 100%, 0);
           transform: translate3d(0, 100%, 0);
   -webkit-transition: all 0.5s ease-out;
@@ -100,7 +100,7 @@
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: solid 3px #eece1a;
+  border: solid 3px #ff9e2e;
 }
 
 .menu .nav-item {
@@ -116,7 +116,7 @@
 }
 
 .menu .nav-item.current > a {
-  color: #eece1a;
+  color: #ff9e2e;
 }
 
 .menu .nav-link {
@@ -133,7 +133,7 @@
 }
 
 .menu .nav-link:hover {
-  color: #eece1a;
+  color: #ff9e2e;
 }
 
 .nav-item:nth-child(1) {
@@ -162,7 +162,7 @@
 }
 
 body {
-  background: #444;
+  background: #100852;
   color: white;
   height: 100%;
   margin: 0;
@@ -184,7 +184,7 @@ body#bg-img:after {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(68, 68, 68, 0.8);
+  background: rgba(16, 8, 82, 0.8);
 }
 
 h1,
@@ -205,7 +205,7 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba(73, 73, 73, 0.5);
+  background: rgba(18, 9, 91, 0.5);
 }
 
 a {
@@ -220,7 +220,7 @@ header {
 }
 
 .text-secondary {
-  color: #eece1a;
+  color: #ff9e2e;
 }
 
 main {
@@ -237,7 +237,7 @@ main .icons a {
 }
 
 main .icons a:hover {
-  color: #eece1a;
+  color: #ff9e2e;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -267,7 +267,7 @@ main#home h1 {
   height: auto;
   width: 100%;
   border-radius: 50%;
-  border: #eece1a 3px solid;
+  border: #ff9e2e 3px solid;
 }
 
 .about-info .bio {
@@ -303,9 +303,9 @@ main#home h1 {
 }
 
 .about-info .job {
-  background: #515151;
+  background: #150a69;
   padding: 0.5rem;
-  border-bottom: #eece1a 5px solid;
+  border-bottom: #ff9e2e 5px solid;
 }
 
 .projects {
@@ -323,7 +323,7 @@ main#home h1 {
 
 .projects img:hover {
   opacity: 0.5;
-  border-color: #eece1a;
+  border-color: #ff9e2e;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -345,15 +345,44 @@ main#home h1 {
 
 .boxes div {
   font-size: 2rem;
-  border: 3px white solid;
   padding: 1.5rem 2.5rem;
   margin-bottom: 3rem;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
 
+.boxes div div {
+  text-align: center;
+}
+
+.boxes div div #refresh,
+.boxes div div #Button1 {
+  background: #100852;
+  color: #ff9e2e;
+  font-weight: bold;
+  padding: 10px;
+  border: #fff solid;
+  border-radius: 12px;
+}
+
+.boxes div div #refresh:hover,
+.boxes div div #Button1:hover {
+  background: #fff;
+  color: #100852;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.boxes div div #txtInput {
+  background: #999;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  border: 3px #100852 solid;
+}
+
 .boxes div:hover {
-  background: #eece1a;
+  background: #ff9e2e;
   color: black;
 }
 
@@ -369,7 +398,7 @@ main#home h1 {
 }
 
 .btn:hover, .btn-dark:hover, .btn-light:hover {
-  background: #eece1a;
+  background: #ff9e2e;
   color: black;
 }
 
@@ -379,14 +408,14 @@ main#home h1 {
 }
 
 .btn-light {
-  background: #c4c4c4;
+  background: #7769f0;
   color: #333;
 }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
+  background: #070324;
   color: white;
   height: 80px;
 }
@@ -532,10 +561,15 @@ main#home h1 {
         grid-template-columns: 1fr;
   }
   #contact h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
+    text-align: center;
   }
   #contact h2 {
     font-size: 2rem;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    display: block;
   }
   #contact div {
     font-size: 1.5rem;

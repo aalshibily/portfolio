@@ -142,10 +142,35 @@ main {
   margin-top: 1rem;
   div {
     font-size: 2rem;
-    border: 3px white solid;
+    //border: 3px white solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     @include easeOut;
+
+    div {
+      text-align: center;
+      #refresh,
+      #Button1 {
+        background: $primary-color;
+        color: $secondary-color;
+        font-weight: bold;
+        padding: 10px;
+        border: #fff solid;
+        border-radius: 12px;
+        &:hover {
+          background: #fff;
+          color: $primary-color;
+          @include easeOut;
+        }
+      }
+      #txtInput {
+        background: #999;
+        color: lighten($primary-color, $amount: 100);
+        font-weight: 700;
+        font-size: 15px;
+        border: 3px $primary-color solid;
+      }
+    }
 
     &:hover {
       background: $secondary-color;
