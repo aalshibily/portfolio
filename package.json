@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "My Portfolio",
   "main": "index.js",
+  "homepage": "https://aalshibily.github.io/portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ -rw"
+    "sass": "node-sass -w scss/ -o dist/css/ -rw",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "Portfolio",
@@ -14,6 +16,7 @@
   "author": "Abdullah Alshibily",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   },
   "devDependencies": {}
