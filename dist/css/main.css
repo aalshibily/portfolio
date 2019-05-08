@@ -76,7 +76,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #0b063b;
+  background: #071843;
   list-style: none;
   -webkit-transform: translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0);
@@ -85,7 +85,7 @@
 }
 
 .menu-branding {
-  background: #100852;
+  background: #0a205a;
   -webkit-transform: translate3d(0, 100%, 0);
           transform: translate3d(0, 100%, 0);
   -webkit-transition: all 0.5s ease-out;
@@ -100,7 +100,7 @@
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: solid 3px #ff9e2e;
+  border: solid 3px #32919e;
 }
 
 .menu .nav-item {
@@ -116,7 +116,7 @@
 }
 
 .menu .nav-item.current > a {
-  color: #ff9e2e;
+  color: #32919e;
 }
 
 .menu .nav-link {
@@ -133,7 +133,7 @@
 }
 
 .menu .nav-link:hover {
-  color: #ff9e2e;
+  color: #32919e;
 }
 
 .nav-item:nth-child(1) {
@@ -162,7 +162,7 @@
 }
 
 body {
-  background: #100852;
+  background: #0a205a;
   color: white;
   height: 100%;
   margin: 0;
@@ -184,7 +184,7 @@ body#bg-img:after {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(16, 8, 82, 0.8);
+  background: rgba(10, 32, 90, 0.8);
 }
 
 h1,
@@ -205,7 +205,7 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba(18, 9, 91, 0.5);
+  background: rgba(11, 35, 99, 0.5);
 }
 
 a {
@@ -220,7 +220,7 @@ header {
 }
 
 .text-secondary {
-  color: #ff9e2e;
+  color: #32919e;
 }
 
 main {
@@ -237,7 +237,7 @@ main .icons a {
 }
 
 main .icons a:hover {
-  color: #ff9e2e;
+  color: #32919e;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -267,7 +267,7 @@ main#home h1 {
   height: auto;
   width: 100%;
   border-radius: 50%;
-  border: #ff9e2e 3px solid;
+  border: #32919e 3px solid;
 }
 
 .about-info .bio {
@@ -303,9 +303,9 @@ main#home h1 {
 }
 
 .about-info .job {
-  background: #150a69;
+  background: #0d2871;
   padding: 0.5rem;
-  border-bottom: #ff9e2e 5px solid;
+  border-bottom: #32919e 5px solid;
 }
 
 .projects {
@@ -323,7 +323,7 @@ main#home h1 {
 
 .projects img:hover {
   opacity: 0.5;
-  border-color: #ff9e2e;
+  border-color: #32919e;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -357,8 +357,8 @@ main#home h1 {
 
 .boxes div div #refresh,
 .boxes div div #Button1 {
-  background: #100852;
-  color: #ff9e2e;
+  background: #0a205a;
+  color: #32919e;
   font-weight: bold;
   padding: 10px;
   border: #fff solid;
@@ -368,7 +368,7 @@ main#home h1 {
 .boxes div div #refresh:hover,
 .boxes div div #Button1:hover {
   background: #fff;
-  color: #100852;
+  color: #0a205a;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -378,11 +378,11 @@ main#home h1 {
   color: white;
   font-weight: 700;
   font-size: 15px;
-  border: 3px #100852 solid;
+  border: 3px #0a205a solid;
 }
 
 .boxes div:hover {
-  background: #ff9e2e;
+  background: #32919e;
   color: black;
 }
 
@@ -398,7 +398,7 @@ main#home h1 {
 }
 
 .btn:hover, .btn-dark:hover, .btn-light:hover {
-  background: #ff9e2e;
+  background: #32919e;
   color: black;
 }
 
@@ -408,14 +408,14 @@ main#home h1 {
 }
 
 .btn-light {
-  background: #7769f0;
+  background: #7496f0;
   color: #333;
 }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #070324;
+  background: #05102c;
   color: white;
   height: 80px;
 }
